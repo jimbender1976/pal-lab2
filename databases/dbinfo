@@ -1,14 +1,15 @@
+{ review
  "VCAP_SERVICES": {
   "p-mysql": [
    {
     "credentials": {
      "hostname": "192.168.16.87",
-     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_5b9c50bd_85b8_4d39_a299_30be1c337ece?user=t9KlpvBm6rnGfHbV\u0026password=wkJMlDAYj5kxfjjY",
-     "name": "cf_5b9c50bd_85b8_4d39_a299_30be1c337ece",
-     "password": "wkJMlDAYj5kxfjjY",
+     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_1d8b1bdd_316b_4e47_a6b1_e82df8eaace9?user=WikWmaDIQWyHZWuY\u0026password=ykiS3UTE1jmMZTmC",
+     "name": "cf_1d8b1bdd_316b_4e47_a6b1_e82df8eaace9",
+     "password": "ykiS3UTE1jmMZTmC",
      "port": 3306,
-     "uri": "mysql://t9KlpvBm6rnGfHbV:wkJMlDAYj5kxfjjY@192.168.16.87:3306/cf_5b9c50bd_85b8_4d39_a299_30be1c337ece?reconnect=true",
-     "username": "t9KlpvBm6rnGfHbV"
+     "uri": "mysql://WikWmaDIQWyHZWuY:ykiS3UTE1jmMZTmC@192.168.16.87:3306/cf_1d8b1bdd_316b_4e47_a6b1_e82df8eaace9?reconnect=true",
+     "username": "WikWmaDIQWyHZWuY"
     },
     "label": "p-mysql",
     "name": "tracker-database",
@@ -24,21 +25,18 @@
   ]
  }
 }
-
-
-
-{
- "VCAP_SERVICES PROD": {
+{ production
+ "VCAP_SERVICES": {
   "p-mysql": [
    {
     "credentials": {
      "hostname": "192.168.16.87",
-     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_4740fcf8_9638_4f26_b87a_0d7f19382633?user=FuYySnsyrg0UZXIw\u0026password=dzVsfItmocuGX5hp",
-     "name": "cf_4740fcf8_9638_4f26_b87a_0d7f19382633",
-     "password": "dzVsfItmocuGX5hp",
+     "jdbcUrl": "jdbc:mysql://192.168.16.87:3306/cf_76e991ae_c36a_45ce_b09b_6c3eb71eef1c?user=hN9q87VmJRSPVRnQ\u0026password=7jrmzVbxRBAZM1Ud",
+     "name": "cf_76e991ae_c36a_45ce_b09b_6c3eb71eef1c",
+     "password": "7jrmzVbxRBAZM1Ud",
      "port": 3306,
-     "uri": "mysql://FuYySnsyrg0UZXIw:dzVsfItmocuGX5hp@192.168.16.87:3306/cf_4740fcf8_9638_4f26_b87a_0d7f19382633?reconnect=true",
-     "username": "FuYySnsyrg0UZXIw"
+     "uri": "mysql://hN9q87VmJRSPVRnQ:7jrmzVbxRBAZM1Ud@192.168.16.87:3306/cf_76e991ae_c36a_45ce_b09b_6c3eb71eef1c?reconnect=true",
+     "username": "hN9q87VmJRSPVRnQ"
     },
     "label": "p-mysql",
     "name": "tracker-database",
