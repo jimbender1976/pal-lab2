@@ -5,3 +5,5 @@ applications:
   host: pal-tracker-sweet-eland
   services:
   - tracker-database
+  env:
+    SECURITY_FORCE_HTTPS: true
